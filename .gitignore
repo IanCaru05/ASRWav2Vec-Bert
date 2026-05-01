@@ -1,0 +1,20 @@
+# 1. Ignore everything
+*
+
+# 2. Allow the essentials
+!.gitignore
+!README.md
+!requirements.txt
+
+# 3. Allow all Jupyter Notebooks
+!*.ipynb
+
+# 4. Specifically ignore those annoying Windows Zone Identifier files
+*:Zone.Identifier
+
+# 5. Ensure the big folders stay ignored even if you try to add them
+MASRI/
+Runs/
+Language_Models/
+SampleAudios/
+.ipynb_checkpoints/
