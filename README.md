@@ -11,6 +11,8 @@ This repository contains the complete implementation, experimentation and evalua
 * `Inference_Test.ipynb` – An interactive notebook designed to manually test audio samples for demonstration purposes.
 
 ---
+### Installation & Environment
+
 #### 1. Acoustic Model Training (`training.py`)
 The environment required to run the final training script can be installed using the provided requirements file:
 
