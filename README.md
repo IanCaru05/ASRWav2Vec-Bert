@@ -16,6 +16,7 @@ The environment required to run the final training script can be installed using
 
 ```bash
 pip install -r requirements.txt
+```
 
 #### 2. Language Model Pipeline (`KenLM_Maltese.ipynb`)
 The text processing, text normalisation and n-gram training pipeline utilities are handled via cell-level installations directly inside the notebook.
