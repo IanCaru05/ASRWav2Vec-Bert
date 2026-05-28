@@ -9,3 +9,15 @@ This repository contains the complete implementation, experimentation and evalua
 * `KenLM_Maltese.ipynb` – Includes the data pipeline for preprocessing the `KorpusMalti` dataset and trains the KenLM n-gram language model.
 * `qualitative_analysis.ipynb` – Notebook utilised to perform error analysis.
 * `Inference_Test.ipynb` – An interactive notebook designed to manually test audio samples for demonstration purposes.
+
+---
+#### 1. Acoustic Model Training (`training.py`)
+The environment required to run the final training script can be installed using the provided requirements file:
+
+```bash
+pip install -r requirements.txt
+
+#### 2. Language Model Pipeline (`KenLM_Maltese.ipynb`)
+The text processing, text normalisation and n-gram training pipeline utilities are handled via cell-level installations directly inside the notebook.
+
+Please note that compiling and building the **KenLM** binaries requires a Linux-based architecture. If you are operating on a Windows machine, this entire notebook must be executed inside **Windows Subsystem for Linux (WSL)** to ensure successful compilation.
