@@ -23,4 +23,4 @@ pip install -r requirements.txt
 #### 2. Language Model Pipeline (`KenLM_Maltese.ipynb`)
 The text processing, text normalisation and n-gram training pipeline utilities are handled via cell-level installations directly inside the notebook.
 
-Please note that compiling and building the **KenLM** binaries requires a Linux-based architecture. If you are operating on a Windows machine, this entire notebook must be executed inside **Windows Subsystem for Linux (WSL)** to ensure successful compilation.
+Please note that compiling and building the **KenLM** binaries requires a Linux-based environment. If you are operating on a Windows machine, this entire notebook must be executed inside **Windows Subsystem for Linux (WSL)** to ensure successful compilation.
